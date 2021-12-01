@@ -1,1 +1,1 @@
-web: gunicorn gitproject.wsgi --log-file -
+web: gunicorn djangoherokuapp.wsgi --log-file -
