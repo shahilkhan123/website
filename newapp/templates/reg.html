@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <center> <div style="height: 400px; width: 400px; background-image: url({% static 'img/reg.jpeg '%})  ; background-size: 100% 100%">
+    <h1 >Registor</h1>
+    <p style="color: ghostwhite;">Create your account. It's free and only takes a minute.</p>
+     <div style="padding-top: 50px;">
+       
+        <input type="text" placeholder="Name">
+        <input type="tel" placeholder="phone no">
+        <input type="email" placeholder="email">
+        <input type="password" placeholder="password"> <br>
+       <center> <input type="password" placeholder="confirm password" ></center><br>
+        <input type="checkbox" name="" id=""> I accept the <a href="#" style="text-decoration: none;">term</a> and <a href="#" style="text-decoration: none;">policy</a><br><br>
+        <button style="width: 100%; height: 40px; background-color: lightyellow;">SUBMIT</button>
+    </div>
+    </div></center>
+</body>
+</html>
