@@ -1,0 +1,128 @@
+.main{
+    background: #f0f2f5;
+    height: 100%;
+    width: 100%;
+    
+
+}
+body{
+    margin:0;
+}
+.left{
+    width: 446px;
+    height: 398px;
+    float: left;
+    margin-top: -12px;
+    
+    margin-left: 269px;
+}
+.right{
+    width: 367px;
+    height: 391px;
+    float: left;
+    margin-top: 87px;
+    background: #f0f2f5;
+    margin-left: 152px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px;
+    
+}
+.fold{
+       height: 61px;
+    width: 334px;
+    margin-top: 160px;
+    padding-bottom: 30px;
+    margin-left: -27px;
+
+}
+
+
+.text{
+    color: #1c1e21;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 23px;
+    
+    line-height: 29px;
+    
+    padding-left: 5px;
+}
+.login{
+    height: 58px;
+    width: 338px;
+    font-size: medium;
+    cursor: text;
+    border-radius: 13px;
+    margin-top: 16px;
+    margin-left: 17px;
+
+
+  
+}
+#btn{
+    height: 58px;
+    width: 338px;
+    
+    cursor: pointer;
+    border-radius: 13px;
+    margin-top: 16px;
+    margin-left: 17px;
+    font-weight: bold;
+    font-size: 22px ;
+    background-color: #1877f2;
+
+}
+#btn:hover{
+    background: #4267b2;
+}
+.for{
+    font-size: 15px;
+    font-weight: bold;
+    font-family:  Helvetica, Arial, sans-serif;
+    margin-left:  110px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+#btn1{
+    height: 58px;
+    width: 259px;
+    cursor: pointer;
+    border-radius: 13px;
+    margin-top: 1px;
+    margin-left: 54px;
+    font-weight: bold;
+    font-size: 22px;
+    background-color:42b72a;
+
+
+}
+#btn1:hover{
+    background: green;
+}
+.create{
+    background:white;
+    color: black;
+    height: 81px;
+    width: 362px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 890px;
+}
+.para{
+    font-size: small
+}
+.para1{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder ;
+    font-size: larger;
+    
+
+}

@@ -1,0 +1,28 @@
+.div{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.emea{
+   text-align: center;
+   padding-top: 48px;
+}
+
+.home{
+    text-decoration: none;
+}
+li{
+    display: inline;
+    padding-inline-end: 100px;
+   
+    
+}
+ul{
+    padding-left: 900px;
+ 
+}
+.body{
+    height:1000px;
+    width: auto;
+    background-color: darkgray;
+}
