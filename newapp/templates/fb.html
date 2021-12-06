@@ -8,17 +8,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="{% static 'css/fb.css' %}" type="text/css">
 </head>
-<body>
-    <div class="main">
-        <div class="left">
+<body class="im" style="background-image: url({% static 'img/hd.jpg' %}); ">
+    <div class="main col-md-6"  >
+        <div class="left col-md-6">
             <div class="fold">
-            <img class="img" src="http://127.0.0.1:5501/facebook/img/facbookimg.svg" alt="">
+           
         </div>
             <h2 class="text">Facebook helps you connect and share with the people in your life.
             </h2>
 
         </div>
-        <div class="right">
+        <div class="right col-md-6">
            <form action="" method="post">
                {% csrf_token %}
                 <input class="login" type="text" placeholder="Email address or phone number">
@@ -28,11 +28,13 @@
                 <a class="for" href="forgot">Forgotten Password?</a>
 
            <div class="line"></div>
-           <button id="btn1" >Create new account</button>
+           <button id="btn1" >Create new account</button> <br>
+           
 
         </form>
+        <h5 class="para"><a class="para1" href="create">Create a page</a> for a celebrity, brand or business.</h5>
         </div>
-        <div class="create" ><h5 class="para"><a class="para1" href="create">Create a page</a> for a celebrity, brand or business.</h5></div>
+        
 
 
     </div>
