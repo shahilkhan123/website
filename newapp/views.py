@@ -12,3 +12,11 @@ def fncreate(request):
     return render(request,'create.html')
 def fnforgot(request):
     return render(request,'forgotten.html')
+def fnproduct(request):
+    return render(request,'product.html') 
+def fnbaabtra(request):
+    return render(request,'baabtra.html')  
+def fncourse(request):
+    return render(request,'course.html')      
+def fncontact(request):
+    return render(request,'contact.html')    

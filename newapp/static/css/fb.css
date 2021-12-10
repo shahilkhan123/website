@@ -3,6 +3,8 @@
 
 body{
     margin:0;
+    background-image: url('../img/h.jpg');
+    
 }
 .left{
     width: 446px;
@@ -31,12 +33,9 @@ body{
     margin-left: -27px;
 
 }
-.im{
-    max-width: 100%;
-    height: 400px;
-    background-size: cover;
 
-}
+
+
 
 
 .text{
@@ -70,11 +69,12 @@ body{
     margin-left: 17px;
     font-weight: bold;
     font-size: 22px ;
-    background-color: #1877f2;
+    background-image: linear-gradient(#66ffff,#ffffff);
+    box-shadow: 0 0 5px;
 
 }
 #btn:hover{
-    background: #4267b2;
+    background-image: linear-gradient(#ffffff,#66ffff);
 }
 .for{
     font-size: 15px;
@@ -83,6 +83,7 @@ body{
     margin-left:  110px;
     text-decoration: none;
     cursor: pointer;
+    
     
 }
 .line{
@@ -107,6 +108,7 @@ body{
 }
 #btn1:hover{
     background: green;
+    box-shadow: 0 0 10px;
 }
 .create{
     background:white;
@@ -118,13 +120,13 @@ body{
     margin-left: 890px;
 }
 .para{
-    font-size: small;
+    font-size: 30p;
     padding-left: 10px;
-    color: white;
+    color: rgb(10, 10, 10);
 
 }
 .para1{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bolder ;
     font-size: larger;

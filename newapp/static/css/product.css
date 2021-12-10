@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    background-image: linear-gradient(to right, #74b9ff,#e66767);
+    height: 1300px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+.name{
+    background-color: rgb(126, 103, 13);
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-style: oblique;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 350px 350px 350px;
+    grid-gap: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.pro{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+}
+.bt{
+    background-color: rgb(51, 37, 37);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor:pointer ;
+
+}
+img{
+    height: 120px;
+    width: 250px;
+    padding-top: 20px;
+    border-radius: 9px;
+
+}
+h1{
+    font-weight: bolder;
+}
+.bt:hover{
+    background-color: rgb(19, 143, 122);
+
+}

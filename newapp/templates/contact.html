@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/contact.css' %}">
+</head>
+<body>
+    <div class="tab">
+        <table cellpadding="3">
+            <tr>
+                <th colspan="2">Contact us</th>
+                
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" >
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gen" id="">male <input type="radio" name="gen" id="">female
+                </td>
+            </tr>  
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date" >
+                </td>
+            </tr>  
+            <tr>
+                <td>Mobile</td>
+                <td><input type="tel" >
+                </td>
+            </tr>     
+            <tr>
+                <td>Email</td>
+                <td><input type="email" >
+                </td>
+            </tr> 
+            <tr>
+                <td>Address</td>
+                <td><textarea name="" id="" cols="30" rows="5"></textarea>
+                </td>
+            </tr> 
+            <tr>
+                
+                <td class="bt" colspan="2"><button>submit</button>
+                </td>
+            </tr>  
+
+               
+        </table>
+
+    </div>
+    
+</body>
+</html>
