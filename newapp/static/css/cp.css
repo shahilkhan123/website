@@ -1,0 +1,15 @@
+.head{
+    padding-top: 320px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.sub{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+ul{
+    cursor: pointer;
+}
+.body{
+    border-radius: 20px;
+}

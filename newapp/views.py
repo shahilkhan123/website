@@ -20,3 +20,17 @@ def fncourse(request):
     return render(request,'course.html')      
 def fncontact(request):
     return render(request,'contact.html')    
+def fnboot(request):
+    return render(request,'bootstrap.html')    
+def fnmaster(request):
+    return render(request,'master.html') 
+def fnindex(request):
+    return render(request,'index.html')
+def fncontus(request):
+    return render(request,'contatus.html')    
+def fnabout(request):
+    return render(request,'about.html') 
+def fnjava(request):
+    return render(request,'java.html') 
+def fncp(request):
+    return render(request,'cp.html')    

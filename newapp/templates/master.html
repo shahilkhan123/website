@@ -1,0 +1,196 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <style>
+        .foot{
+            background-color: #434343;
+            /* height: 180px;
+            width: 100%; */
+
+        }
+        .copy{
+            color: white;
+        }
+        .right{
+            background-color: black;
+        }
+    </style>
+
+    <title>baabtra</title>
+  </head>
+  <body>
+      <div class="row">
+          <div class="col-lg-12 ">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <!-- Just an image -->
+       
+            <a class="navbar-brand" href="#">
+           <img src="{% static 'img/baabtra/baabtra.webp' %}" width="100" height="50" alt="">
+            </a>
+          
+          <!-- just image end -->
+        
+
+        <button class="navbar-toggler form-inline" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <form class="form-inline ml-auto">
+                <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index">Home<span class="sr-only">(current)</span></a>
+                  </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contus">contact us<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="about">About us <span class="sr-only">(current)</span></a>
+              </li>
+              <li>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                   Login
+                  </button>
+              </li>
+              
+              
+          </ul>
+          
+          
+        </div>
+    
+        
+      </nav>
+    </div>
+</div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"> form</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+      <!-- endnavbar -->
+
+      {% block content %}
+      {% endblock %}
+
+      
+         <!-- Footer -->
+         <div class="row">
+             <div class="col-lg-12">
+                <footer class="page-footer font-small foot pt-4">
+
+                    <!-- Footer Elements -->
+                    <div class="container">
+                  
+                      <!-- Social buttons -->
+                      <ul class="list-unstyled list-inline text-center">
+                        <li class="list-inline-item">
+                          <a href="https://www.facebook.com/baabtra/" class="btn-floating btn-fb mx-1">
+                            <i class="fab fa-facebook-f"> </i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="https://twitter.com/baabtra" class="btn-floating btn-tw mx-1">
+                            <i class="fab fa-twitter"> </i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="https://baabtra.com/" class="btn-floating btn-gplus mx-1">
+                            <i class="fab fa-google-plus-g"> </i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/baabtra/?hl=en" class="btn-floating btn-gplus mx-1">
+                              <i class="fab fa-instagram"> </i>
+                            </a>
+                          </li>
+                      
+                       
+                      </ul>
+                      <!-- Social buttons -->
+                  
+                 </div>
+                     <div class="footer-copyright text-center copy">
+                         <a href="index">Home</a>
+                        <a href="contus">Contact us</a>
+                        <a href="about">About us</a>
+                      </div>
+                  
+                      <!-- Copyright -->
+                    <div class="footer-copyright text-center py-1 copy right">© 2020 Copyright:
+                      
+                </div>
+                   
+                </footer>
+             </div>
+                
+        </div>
+                
+                
+                    
+
+    
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
