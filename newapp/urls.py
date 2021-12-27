@@ -18,6 +18,9 @@ urlpatterns=[
     path('about',views.fnabout,name='about'),
     path('java',views.fnjava,name='java'),
     path('cp',views.fncp,name='cp'),
+    path('cal',views.fncal,name='cal'),
+
+  
    
 
 

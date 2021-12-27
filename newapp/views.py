@@ -33,4 +33,6 @@ def fnabout(request):
 def fnjava(request):
     return render(request,'java.html') 
 def fncp(request):
-    return render(request,'cp.html')    
+    return render(request,'cp.html')   
+def fncal(request):
+    return render(request,'calculator.html')     

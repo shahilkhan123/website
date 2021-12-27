@@ -35,20 +35,20 @@
         // alert (typeof(b))
 
      
-        // a=Number(prompt('enter a number '))
-        // for(i=1;i<=10;i++)
-        // document.write( "<br>"+ a*i )
+      //   a=Number(prompt('enter a number '))
+      //   for(i=1;i<=10;i++)
+      //   document.write( "<br>"+ a*i )
 
 
 
 
 
 
-        // a=Number(prompt('enter a number '))
-        // if(a%6==0)
-        // document.write('yes')
-        // else
-        // document.write('no')
+      //   a=Number(prompt('enter a number '))
+      //   if(a%6==0)
+      //   document.write('yes')
+      //   else
+      //   document.write('no')
 
 
         // a=Number(prompt('enter 1 number '))
@@ -78,20 +78,76 @@
          
          
             
-         for(i=1;i<=100;i++){
-            document.write(i)
-         }
+         // for(i=1;i<=100;i++){
+         //    document.write(i)
+         // }
 
 
 
              
-         for(i=1;i<=100;i+=5){
-            document.write(i)
-         }
+         // for(i=1;i<=100;i+=5){
+         //    document.write(i)
+         // }
         
-         for(i=2;i<=100;i+=2){
-            document.write(i+"<br>")
-         }
+         // for(i=2;i<=100;i+=2){
+         //    document.write(i+"<br>")
+         // }
+
+
+
+         // function add(){
+         //    var a=6
+         //    var b=5
+         //    sum=a+b
+         //    console.log(sum)
+         // }
+         // add()
+
+
+
+
+         // function add(a,b){
+         //    sum=a+b
+         //    console.log(sum)
+         // }
+         // add(20,60)
+         // add(45,90)
+
+
+
+
+
+         // function name(a){
+         //    console.log("hello " + a)
+         // }
+         // name("shahil")
+
+
+
+
+
+
+         // function name(a,b){
+         //    console.log(a + " shahil " +b)
+
+
+         // }
+         // name("muhammed" , "kk")
+
+
+
+
+
+
+
+         // function add(a,b){
+         //    var sum=a+b
+         //    return sum
+         // }
+         // res=add(10,40)
+         // document.write(res)
+         
+
         
 
 
@@ -101,5 +157,63 @@
 
 
     </script>
+
+<!-- addition -->
+
+
+     <!-- <input type="number" placeholder="enter 1 number" id="n1">
+     <input type="number" placeholder="enter 2 number" id="n2">
+     <button onclick="add()">add</button>
+     <input type="number" placeholder="sum" id="res">
+
+
+     <script>
+        function add(){
+           no1=Number(document.getElementById("n1").value)
+           no2=Number(document.getElementById("n2").value)
+           sum=no1+no2
+           document.getElementById("res").value=sum
+        }
+     </script> -->
+
+
+
+      <!-- odd or even -->
+
+     <!-- <input type="number" placeholder="enter a number" id="n1">
+     <button onclick="view()">view</button>
+     <input type="text" placeholder="result" id="res">
+     
+     <script>
+        function view(){
+           no1=Number(document.getElementById("n1").value)
+           
+           if(no1%2==0)
+              document.getElementById('res').value="even"
+              else
+              document.getElementById('res').value="odd"
+         
+      }
+     </script> -->
+
+
+
+     <!-- multi -->
+
+     <input type="number" placeholder="enter a limit" id="n1">
+     <button onclick="view()">view</button>
+     <span id="n2"></span>
+     <script>
+        function view(){
+         no1=Number(document.getElementById("n1").value)
+         document.getElementById("n2").innerHTML=""
+         
+         for( i=1;i<=10;i++)
+        document.getElementById("n2").innerHTML+= "<br><br>"+no1+"*"+i+"="+no1*i
+
+        }
+     </script>
+
 </body>
 </html>
+

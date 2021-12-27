@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+  .div{
+    height: 600px;
+    width: 400px;
+    background-color: bisque;
+    /* margin-left: 500px;
+    margin-top: 100px; */
+    text-align: center;
+    border-radius: 20px;
+}
+input{
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+}
+h1{
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+button{
+    margin: 20px;
+    padding: 7px;
+    height: 53px;
+    width: 57px;
+    border-radius: 10px;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+   <div class="row">
+      <div class="col-lg-12">
+    <div class="div">
+        <input type="text"  id="n1">
+        <h1>Calculator</h1>
+        <button onclick="Clear()" >C</button> <button onclick="fun('/')">/</button> <button onclick="fun('*')">*</button> <button onclick="fun('-')">-</button><br>
+        <button onclick="fun('7')">7</button> <button onclick="fun('8')">8</button> <button onclick="fun('9')">9</button> <button onclick="fun('+')">+</button><br>
+        <button  onclick="fun('4')">4</button> <button  onclick="fun('5')">5</button> <button  onclick="fun('4')">4</button> <button onclick="fun('.')">.</button><br>
+        <button  onclick="fun('3')">3</button> <button  onclick="fun('2')">2</button> <button  onclick="fun('1')">1</button> <button onclick="equal()">=</button><br>
+
+    </div>
+
+    <script>
+       let a=document.getElementById('n1');
+
+       function fun(num){
+          a.value +=num;
+       }
+       function equal(){
+          try{
+             a.value=eval(a.value);
+          }
+          catch(err)
+          {
+            alert("invalid")
+          }
+       }
+       function Clear(){
+          a.value = "";
+       }
+       function equal(){
+          let x=document.getElementById('n1').value
+          let y=eval(x)
+          document.getElementById('n1').value=y
+
+       }
+
+         
+    
+        
+      </script>
+     </div>
+   </div>
+    
+</body>
+</html>
