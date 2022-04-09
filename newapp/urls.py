@@ -4,7 +4,7 @@ from . import views
 urlpatterns=[
     path('home', views.fnhome, name='home'),
     path('emea/', views.fnemea, name='emea'),
-    path('fb', views.fnfb, name='fb'),
+    path('login', views.fnlogin, name='login'),
     path('create', views.fncreate, name='create'),
     path('forgot', views.fnforgot, name='forgot'),
     path('product',views.fnproduct,name='product'),
@@ -19,6 +19,14 @@ urlpatterns=[
     path('java',views.fnjava,name='java'),
     path('cp',views.fncp,name='cp'),
     path('cal',views.fncal,name='cal'),
+    path('django',views.fndjango,name='django'),
+    path('new',views.fnnew,name='new'),
+    path('form',views.fnform,name='form'),
+    path('del',views.fndel,name='del'),
+    path('display',views.display,name='display'),
+    path('logout',views.logout,name='logout'),
+
+    # path('submitform',views.submitform,name='submitform'),
 
   
    
